@@ -1,0 +1,158 @@
+/* mie variabili */
+:root{
+    --colore-testo-footer: rgb(255, 255, 255);
+    --colore-footer: rgb(22, 22, 22);
+    --colore-sfondo: rgba(238, 228, 185, 0.87);
+    --colore-menu: rgb(29, 29, 29);
+    --colore-menu-chiuso: rgb(12, 12, 12);
+
+    --colore-hover: rgb(226, 50, 6);
+   
+    --img-lavori-home: url('../../public/img/mangaLavori.jpg');
+    --img-Location-home: url('../../public/img/radoLocation.jpg');
+    --img-info-home: url('../../public/img/tottoaction.jpg');
+
+    --img-lavori-portfolio-sfondo:  url('../../public/img/tottoaction.jpg');
+
+}
+
+body{
+    background-color: rgb(15, 15, 15);
+}
+.containerMio{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+/* *************** */
+/* --- MY MENU --- */
+/* *************** */
+.menu{
+    background-color: var(--colore-menu);
+    color: white;
+    height: 8vh;
+    padding: 0 50px 0 50px;
+}
+.logoMenu{
+    position: relative;
+    top: 10px;
+     
+     height: auto;
+     width: auto;
+}
+.logoMenu img{ height: 4vh; margin-bottom: -13px; position: relative; top: 8px}
+.listaMenu  {
+    position: relative;
+  
+  }
+.listaMenu li {
+    list-style: none; 
+    margin-right: 15px;
+  }
+.listaMenu a {
+    text-decoration: none; color: white; 
+}
+.listaMenu a:hover {
+    text-decoration: none; color: var(--colore-hover)
+}
+.listaMenu{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.bottMobile{
+    display: flex;
+    justify-content: flex-end;
+}
+#bottoneMobile{
+ font-size: 33px;
+ position: relative;
+ bottom: 7px;
+ margin-bottom: -10px;
+ cursor: pointer;
+}
+
+.iconaToggleMenu{
+    display: none
+}
+
+/* **********************************
+------ MEDIA QUERY PER IL MENU -----
+********************************** */
+@media screen and (max-width: 640px) {
+.iconaToggleMenu{
+    display: block
+}
+.spazioMenu{
+    display: none;
+}
+} /* FINE MEDIA QUERY MENU */
+
+
+
+/* *******************
+------ FOOTER -----
+********************** */
+.mioFooter{
+    background-color: var(--colore-footer);
+    color: var(--colore-testo-footer);
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+z-index: 4;
+}
+
+.cont-space{
+    min-height: 100%;
+    display: flex;
+    padding: 10px 50px 10px 50px;
+}
+
+.F-space1{
+width: 33.3%;
+display: flex;
+}
+.F-space2{
+    width: 33.3%;
+   
+    align-items: center;
+    text-align: center;
+}
+.F-space3{
+    width: 33.3%;
+    text-align: end;
+}
+.F-space3 p {
+    font-size: 12px;
+    margin-top: 4px;
+}
+.logoFooter{
+    height: 5vh;
+}
+#icon-foot{
+    margin-top: 5px;
+    font-size: 30px;
+    color: aliceblue;
+    margin-right: 20px;
+    background-color: rgb(7, 7, 7);
+}
+#icon-foot2{
+    margin-top: 5px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#icon-foot :hover{
+    color: var(--colore-hover);
+    cursor: pointer;
+}
+#icon-foot2 :hover{
+    color: var(--colore-hover);
+    cursor: pointer;
+}
+.scrittaIcon{
+    margin-right: 20px;
+    margin-top: 8px;
+}

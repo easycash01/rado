@@ -1,0 +1,3 @@
+injstalliamo un lightbox gia testato
+https://fslightbox.com/react
+- npm install fslightbox-react
