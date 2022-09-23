@@ -76,6 +76,14 @@ body{
     display: none
 }
 
+#menu-mobileClose{
+    display: none;
+}
+#menu-mobileOpen{
+    display: none;
+}
+
+
 /* **********************************
 ------ MEDIA QUERY PER IL MENU -----
 ********************************** */
@@ -86,7 +94,54 @@ body{
 .spazioMenu{
     display: none;
 }
+
+
+/* MENU APERTURA E CHIUSURA */
+#menu-mobileClose{
+    display: none;
+}
+#menu-mobileOpen{
+    display: block;
+}
+.menuMobile{
+    position: absolute;
+   right: 0px;
+   top: 72px;
+    margin: 0;
+    height: 48vh;
+    width: 100vW;
+    background-color: rgba(10, 10, 10, 0.884);
+    z-index: 10;
+}
+.listaMenuMobile{
+    margin-top: 7vh;
+  
+}
+.listaMenuMobile li{
+ font-size: 24px;
+ text-align: center;
+ list-style: none;
+
+ color: aliceblue;
+width: 200px;
+margin: 0 auto;
+margin-top: 50px;
+}
+
+li.active{
+  background-color: rgb(179, 11, 5);
+  
+  border-radius: 10px;
+  color: rgb(255, 247, 247);
+  font-weight: bold;
+}
+
+
 } /* FINE MEDIA QUERY MENU */
+
+
+
+
 
 
 

@@ -7,10 +7,10 @@ import {motion} from 'framer-motion'
 
 function Portfolio() {
   return (
-    <div className='paginaLavori'
-
-    >
-        <div className='imgLavori'></div>
+    <div className='paginaLavori' >
+        <div className='imgLavori'>
+          <h2>PORTFOLIO</h2>
+        </div>
        
         <motion.div className='contGalleria containerMio'
          key="2"
