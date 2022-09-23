@@ -7,7 +7,7 @@ import '../css/stileComp.css';
 
 /* font awesome per react */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 /* importo motion di frame motion 
 per fare transitor page ed effetti */
@@ -85,8 +85,10 @@ const toogleMenu = ()=>{
     </div>  
     
     <div className='bottMobile' onClick={() =>toogleMenu()}>
- 
-       <FontAwesomeIcon icon={faBars} className="iconaToggleMenu" id="bottoneMobile"/>
+       {
+      state.isMenuOpen ? <FontAwesomeIcon icon={faXmark} className="iconaToggleMenu" id="bottoneMobile"/> :  <FontAwesomeIcon icon={faBars} className="iconaToggleMenu" id="bottoneMobile"/>
+       }
+    {/*    <FontAwesomeIcon icon={faBars} className="iconaToggleMenu" id="bottoneMobile"/> */}
     </div>
 
     <motion.div className='menuMobile' id={state.isMenuOpen ? "menu-mobileOpen" : "menu-mobileClose" }
@@ -105,7 +107,7 @@ const toogleMenu = ()=>{
    }}
     >
     <ul className='listaMenuMobile'>
-           <div onClick={() =>toogleMenu()}> <Link to='/'> <li class={url === "/" ? "active" : ""}>HOME</li> </Link> </div> 
+           <div onClick={() =>toogleMenu()}><Link to='/'> <li class={url === "/" ? "active" : ""}>HOME</li> </Link> </div> 
            <div onClick={() =>toogleMenu()}><Link to='/Portfolio'> <li class={url === "/Portfolio" ? "active" : ""}>PORTFOLIO</li> </Link> </div>
            <div onClick={() =>toogleMenu()}><Link to='/Location'> <li class={url === "/Location" ? "active" : ""}>LOCATION </li> </Link> </div>
            <div onClick={() =>toogleMenu()}><Link to='/About'> <li class={url === "/About" ? "active" : ""}>ABOUT </li> </Link> </div>

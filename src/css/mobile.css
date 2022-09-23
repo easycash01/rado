@@ -56,6 +56,45 @@
         font-size: 14px;
     }
 
+ /*--- PAGINA PORTFOLIO ---*/
+
+ .imgLavori{
+    margin-bottom: 30px;
+    height: auto;
+   }
+   
+   .cont-desc-Lavori{
+       display: flex;
+       justify-content: center
+   }
+   .logoPortfolio {
+       width: 50%;
+       text-align: center;
+   }
+   .logoPortfolio img{
+       width: 80%;
+       margin-top: 50%;
+   }
+   .descrizione-lavori{
+    font-size: 14px;
+       width: 54%;
+       margin-top: 40px;
+       text-align: center;
+   }
+
+   #icon-Port{
+    font-size: 35px;
+    margin-right: 14px;
+    margin-top: 10px;
+    color: white;
+   }
+   #icon-Port2{
+       font-size: 35px;
+       margin-left: 14px;
+       margin-top: 10px;
+       color: white;
+   }
+
  /* --- GALLERIA --- */
     .FotoGall1{
         margin-right: 5px;
