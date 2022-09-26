@@ -14,8 +14,6 @@ per fare transitor page ed effetti */
 import {motion} from 'framer-motion'
 
 
-
-
 const reducer = (state, action ) =>{
   if (action.type === 'APRICHIUDIMENU'){
     return {
