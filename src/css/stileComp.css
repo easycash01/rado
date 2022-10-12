@@ -8,11 +8,12 @@
 
     --colore-hover: rgb(226, 50, 6);
    
-    --img-lavori-home: url('../../public/img/mangaLavori.jpg');
-    --img-Location-home: url('../../public/img/radoLocation.jpg');
-    --img-info-home: url('../../public/img/tottoaction.jpg');
+    --img-lavori-home: url('../../public/img/lavoroHome.jpg');
+    --img-Location-home: url('../../public/img/locationHome.jpg');
+    --img-info-home: url('../../public/img/moreInfo.jpg');
 
-    --img-lavori-portfolio-sfondo:  url('../../public/img/tottoaction.jpg');
+    --img-lavori-portfolio-sfondo:  url('../../public/img/sfondo2.jpg');
+    --img-location-sfondo:  url('../../public/img/sfondo2.jpg');
 
 }
 
@@ -211,3 +212,75 @@ display: flex;
     margin-right: 20px;
     margin-top: 8px;
 }
+
+
+
+/* ******************** */
+/* PAGINA LOCATION */
+/* ********************** */
+.location-page{
+width: 100%;
+height: 100%;
+color: aliceblue;
+font-size: 21px;
+overflow: hidden;
+background-image: var(--img-location-sfondo);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.locationTop{
+height: 54vh;
+width: 100%;
+background-image: url('../../public/img/radoImgLoca.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+    
+}
+.logoLocation{
+    margin-top: 50px;
+ width: 100%;
+ text-align: center;
+}
+.logoLocation img{
+   width: 400px;
+}
+.divFreccetta{
+    width: 100%;
+    text-align: center;
+}
+.freccetta{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.titoloLocation{
+    margin-top: 87px;
+    text-align: center;
+font-size: 44px;
+}
+
+.descloc{
+    width: 100%;
+
+text-align: center;
+}
+
+
+
+/* ******************** */
+/* PAGINA ABOUT */
+/* ********************** */
+.paginaAbout{
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    font-size: 21px;
+    overflow: hidden;
+    background-image: var(--img-location-sfondo);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }

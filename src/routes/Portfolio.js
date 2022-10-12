@@ -25,7 +25,7 @@ function Portfolio() {
           
           <div className='logoPortfolio'>
           
-          <img src='./img/loghi/logoRadoColor.png' alt=''></img>
+          <img src='./img/loghi/logoRado_bianco.png' alt=''></img>
 
           </div>
           <div className='descrizione-lavori'>

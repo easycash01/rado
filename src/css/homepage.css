@@ -108,6 +108,8 @@ z-index: 3;
     background-image: var(--img-info-home);
     background-size: cover;
     background-position: bottom;
+    background-position-y: center;
+    background-position-x: -100px;
     z-index: 3;
     
 }
