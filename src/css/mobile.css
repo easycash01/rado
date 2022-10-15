@@ -42,6 +42,8 @@
    .Quad-portfolio{
         width: 33.3vw;
         height: 40vh;
+        background-position-x: center;
+        background-repeat: no-repeat;
         }
       .Quad-location{
             width: 33.3vW;
@@ -50,11 +52,13 @@
        .Quad-Moreinfo{
             width: 33.4vW;
           height: 40vh;
+      
+          background-repeat: no-repeat;
          }
     .scrittaQuadrati{
-        
         font-size: 14px;
     }
+  
 
  /*--- PAGINA PORTFOLIO ---*/
 
@@ -135,17 +139,22 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
+.locationflex{
+    display: block;
+}
 
 .locationTop{
     height: 60vh;
     width: 100%;
-    background-image: url('../../public/img/locationPage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
         
     }
-
+.locationTopinfo{
+    width: 100%;
+    align-self:center;
+}
     .logoLocation{
         margin-top: 34px;
      width: 100%;
@@ -153,13 +162,86 @@ background-size: cover;
     }
     .logoLocation img{
        width: 280px;
+
     }
+.divFreccetta{
+    margin-top: -20px;
+}
 
+    .descloc{
+        margin-top: 10px;
+    width: 100%;
+    display: block;
+    }
+ 
+.location-six{
+    width: 90%;
+    margin-bottom: 50px;
+    align-self:stretch;
+ }
+.location-dex{
+     width: 90%;
+     align-self:center;
+ }   
+ 
+.negoFuori{
+     width: 100%;
 
+}
+.negoFuori2{
+    width: 100%;
+ }
 
+.descloc2{
+    margin-top: 70px;
+    width: 100%;
+    display: block;
+}
+.location-six2{
+width: 90%;
+margin-bottom: 50px;
+height: 58vh;
+margin-left: 0%;
+}
+.negodentro{
+   width: 100%;
+}
+.location-dex2{
+    width: 90%;
+    text-align:center;
+   }
+.descloc3{
+    display: block;
+}
+.location-six3{
+    width: 90%;
+    margin-bottom: 40px;
+}
+.location-dex3{
+    width: 90%;
+    margin-bottom: 40px;
+}
+.mappaG{
+    width: 100%;
+    height: 360px;
+}
 
-
-
+/* ----- ABOUT ----- */
+.paginaAbout{
+    display: block;
+}
+.info{
+    width: 100%;
+    margin-bottom: 45px;
+}
+.imgAbout{
+    width: 100%;
+    height: 60vh;
+    margin-top: -20px;
+}
+.nodesk{
+    display: block;
+}
 /* ----- FOOTER ----- */
     .scrittaIcon{
         display: none;

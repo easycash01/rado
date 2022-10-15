@@ -12,7 +12,7 @@ function Footer() {
       <div className='cont-space'>
         <div className='F-space1'>
        
-        <p className='scrittaIcon'>RADO TATOO STUDIO</p>
+        <p className='scrittaIcon'>RADO TATTOO STUDIO</p>
         <a href='https://www.facebook.com/radotatt' target={'_blank'}>
         <FontAwesomeIcon icon={brands('square-facebook')} id="icon-foot" />
         </a>
@@ -25,7 +25,7 @@ function Footer() {
            <img src='img/loghi/logoRadoBianco.png' className='logoFooter'></img>
         </div>
         <div className='F-space3'>
-        <p>All rights reserved RadoTatoo <br></br>
+        <p>All rights reserved RadoTattoo <br></br>
         Copyright © 2022 </p>
         </div>
       </div>  

@@ -25,7 +25,9 @@ function Home() {
 
             <div className='sopraImgHome2'>
              <h1>RADO TATTOO STUDIO</h1>
-             <h2>ALTRO TITOLO BHOOO</h2>
+             <h2>DI ALESSANDRO SOLIVERAS</h2>
+            
+            
             </div>
             
           </div>

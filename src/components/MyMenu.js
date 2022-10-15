@@ -105,10 +105,10 @@ const toogleMenu = ()=>{
    }}
     >
     <ul className='listaMenuMobile'>
-           <div onClick={() =>toogleMenu()}><Link to='/'> <li class={url === "/" ? "active" : ""}>HOME</li> </Link> </div> 
-           <div onClick={() =>toogleMenu()}><Link to='/Portfolio'> <li class={url === "/Portfolio" ? "active" : ""}>PORTFOLIO</li> </Link> </div>
-           <div onClick={() =>toogleMenu()}><Link to='/Location'> <li class={url === "/Location" ? "active" : ""}>LOCATION </li> </Link> </div>
-           <div onClick={() =>toogleMenu()}><Link to='/About'> <li class={url === "/About" ? "active" : ""}>ABOUT </li> </Link> </div>
+           <div onClick={() =>toogleMenu()}><Link to='/'> <li className={url === "/" ? "active" : ""}>HOME</li> </Link> </div> 
+           <div onClick={() =>toogleMenu()}><Link to='/Portfolio'> <li className={url === "/Portfolio" ? "active" : ""}>PORTFOLIO</li> </Link> </div>
+           <div onClick={() =>toogleMenu()}><Link to='/Location'> <li className={url === "/Location" ? "active" : ""}>LOCATION </li> </Link> </div>
+           <div onClick={() =>toogleMenu()}><Link to='/About'> <li className={url === "/About" ? "active" : ""}>ABOUT </li> </Link> </div>
             {/* <Link to='/Contact'> <li>CONTACT</li> </Link>  */}
          
         </ul>
