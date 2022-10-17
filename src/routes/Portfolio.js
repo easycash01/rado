@@ -61,7 +61,7 @@ function Portfolio() {
      
 
         <motion.div className='contGalleria containerMio'
-         key="2"
+         key="3"
          initial={{ opacity: 0, y: 300 }}
          animate={{ opacity: 1, y: 0 }}
          exit={{ opacity: 0, y: 300 }}

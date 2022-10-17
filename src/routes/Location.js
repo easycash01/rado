@@ -28,7 +28,7 @@ const Location = () => {
 </motion.div>
 
 <motion.div className='divFreccetta'
-    key="5"
+    key="6"
     initial={{ y: 400 }}
     animate={{ y: 0 }}
     exit={{ y: 400 }}
