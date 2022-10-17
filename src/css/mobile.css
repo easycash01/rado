@@ -214,12 +214,13 @@ margin-left: 0%;
 .mappaG{
     width: 100%;
     height: 360px;
+    margin-bottom: -160px;
 }
 
 /* ----- ABOUT ----- */
 .paginaAbout{
     display: block;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 .info{
     width: 100%;
@@ -234,14 +235,14 @@ margin-left: 0%;
     display: block;
 }
 .logoAboutScritta{
-    width: 49%;
+    width: 69%;
     }
     .logoAbout{
-    width: 57%;
-    margin-bottom: 30px;
+    width: 77%;
+    margin-bottom: 40px;
     }
     .titoloAbout{
-        margin-bottom: 20px;
+        margin-bottom: 80px;
     }
 .indiMobile{
     margin-bottom: 10px;
@@ -249,7 +250,7 @@ margin-left: 0%;
 }
 .logoWpimg{
     width: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 
 }
 .iconAboutMobile{

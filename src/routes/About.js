@@ -20,7 +20,7 @@ function About() {
        <br></br>
        <img src='img/loghi/logoRado_bianco.png' className='logoAbout'></img>
        <br></br>
-       <h1 className='titoloAbout'>RADO TATTOO - DI ALESSANDRO SOLIVERAS</h1>
+       <h1 className='titoloAbout'>RADO TATTOO DI ALESSANDRO SOLIVERAS</h1>
      <br></br>
       
 <p className='indicazione indiMobile'>Contattami ora da WhatsApp</p>
