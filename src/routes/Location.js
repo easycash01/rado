@@ -81,10 +81,14 @@ const Location = () => {
       <h1>RADO TATTOO STUDIO</h1>
       <h2>DI ALESSANDRO SOLIVERAS</h2>
       <br></br> 
-      <p className='indicazione'>Qui puoi vedere la posizione e  gli orari di apertura.</p>
       
       <FontAwesomeIcon icon={faClock} className="icon-location" id=""/>
-      <br></br> 
+      <p className='indicazione'>E' preferibile prenotare un appuntamento, dal Lunedi' al Sabato.</p>
+      <p className='indicazione'>Puoi richiedere un appintamento premento il pulsante Whatsapp.</p>
+      <a href="https://wa.me/+393420836045" target={'_blank'}>
+{/* <FontAwesomeIcon icon={brands('whatsapp')} className="logoWp" /> */}
+<img src='img/loghi/Wp.png' className='logoWplocation'></img>
+        </a>
       <p></p>
       <br></br>
       <FontAwesomeIcon icon={faHome} className="icon-location" id=""/>

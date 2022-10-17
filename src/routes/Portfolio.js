@@ -33,16 +33,17 @@ function Portfolio() {
           <hr className='lineaPort'></hr>
           <br></br>
           <h3>RADO TATTOO</h3>
-          <p>andard sin dal sedicesimo secolo, quando un anonimo tipografo 
-            prese una cassetta di caratteri e li assemblò 
-            per preparare un testo campione. 
-            È sopravvissuto non solo a più di cinque secoli,
-            negli anni ’60, con la diffusione dei fogli di cara</p>
+          <br></br>
+          <p>Una collezione degli ultimi lavori eseguiti sui clienti che si sono prestati
+            a voler documentare il lavoro eseguito.
+            Se siete curiosi o interessati di voler vedere altri lavori, di sotto sono presenti
+            i link per entrare nei social network.
+          </p>
              <br></br>
             
 
             <div className="socialPortfolio">
-            <p>SERGUIMI SUI SOCIAL</p>
+            <p>Seguimi sui social</p>
        <a href='https://www.facebook.com/radotatt' target={'_blank'}>
        <FontAwesomeIcon icon={brands('square-facebook')} id="icon-Port" />
        </a>
