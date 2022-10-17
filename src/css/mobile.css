@@ -6,6 +6,7 @@
     /*---  HOMEPAGE ---*/
     .spazioHome{
         display: block;
+    overflow-y: hidden;
     }
     .imgMain{
         width: 100%;
@@ -14,6 +15,7 @@
     .dentroImgHome{
         height: 100%;
         display: block;
+        margin-top: -13px;
     }
     .sopraImgHome1{
         padding: 0;
@@ -125,8 +127,8 @@ color: aliceblue;
 font-size: 24px;
 overflow: hidden;
 background-image: var(--img-location-sfondo);
-background-repeat: no-repeat;
-background-size: cover;
+background-repeat:repeat;
+/* background-size:contain; */
 
 }
 .locationflex{
@@ -149,11 +151,15 @@ background-size: cover;
         margin-top: 34px;
      width: 100%;
      text-align: center;
+     
     }
     .logoLocation img{
-       width: 280px;
-
+       width: 240px;
+       margin-top: -5px;
     }
+.sottoLogolocation{
+    font-size: 20px;
+}    
 .divFreccetta{
     margin-top: -20px;
 }
@@ -166,31 +172,30 @@ background-size: cover;
  
 .location-six{
     width: 90%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     align-self:stretch;
  }
 .location-dex{
      width: 90%;
      align-self:center;
+     height: 36vh;
  }   
  
 .negoFuori{
+     height: 42vh;
      width: 100%;
-
+     margin-top: -20px;
+     margin-bottom: -10px;
 }
-.negoFuori2{
-    width: 100%;
- }
-
 .descloc2{
-    margin-top: 70px;
+    margin-top: 30px;
     width: 100%;
     display: block;
 }
 .location-six2{
 width: 90%;
 margin-bottom: 50px;
-height: 58vh;
+height: 37vh;
 margin-left: 0%;
 }
 .negodentro{
@@ -203,28 +208,45 @@ margin-left: 0%;
 .descloc3{
     display: block;
 }
+.descloc3 h1{
+    font-size: 24px;
+}
+.descloc3 h2{
+    font-size: 20px;
+}
+.titoloPort{
+    margin-bottom: -25px;
+}
 .location-six3{
     width: 90%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .location-dex3{
     width: 90%;
-    margin-bottom: 40px;
-}
-.mappaG{
-    width: 100%;
-    height: 360px;
-    margin-bottom: -160px;
+    margin-bottom: 10px;
 }
 
+.indicLocation p{
+    font-size: 17px;
+}
+
+.mappaG{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.separ{
+    margin-bottom: -30px;
+}
 /* ----- ABOUT ----- */
 .paginaAbout{
     display: block;
-    margin-top: 80px;
 }
 .info{
     width: 100%;
     margin-bottom: 45px;
+    margin-top: 80px;
 }
 .imgAbout{
     width: 100%;

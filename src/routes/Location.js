@@ -8,10 +8,12 @@ import {motion} from 'framer-motion'
 
 const Location = () => {
   return (
+    <>
+    <div className='locationTop'>  </div> 
     <div className='location-page'> 
     <div className='locationflex'>
    
-     <div className='locationTop'>  </div> 
+    
 
      <div className='locationTopinfo'>   
 <motion.div className='logoLocation'
@@ -20,9 +22,9 @@ const Location = () => {
     animate={{ opacity: 1, x: 0 }}
     exit={{ opacity: 0, x: 400 }}
     transition={{ duration: 0.7, ease: "easeInOut" }}>
-<img src="img/loghi/logoRadoBianco.png"></img>
+<img src="img/loghi/logoRadoBianco.png" className='logoRadolocation'></img>
 <br></br> <br></br>
-<p>DI ALESSANDRO SOLIVERAS</p>
+<p className='sottoLogolocation'>DI ALESSANDRO SOLIVERAS</p>
  <br></br> <br></br>
 
 </motion.div>
@@ -48,7 +50,7 @@ const Location = () => {
       <br></br><br></br>
       <p>LOCALE TOTALMENTE RINNOVATO</p>
       <br></br>
-      <p>Studio completamente rinnovato e ristrutturato, un design unico, elaborato ed ideato da professionisti del settore
+      <p>Studio completamente rinnovato e ristrutturato, un design unico, elaborato ed ideato da professionisti del settore,
        che si accosta alla perfezione con il lavoro e il background dell'artista.<br></br> 
        Lo studio RADO TATTOO si presenta accogliente ordinato e ben organizzato, con attenzione particolare alla cura 
        della pulizia e dell'igiene. </p>
@@ -71,7 +73,7 @@ const Location = () => {
 
 
 <div className='titoloPort'>
-<img src='img/sepa2.png' className=''></img>  
+<img src='img/sepa2.png' className='separ'></img>  
 <br></br><br></br>
 <p>LOCATION</p>
 </div>
@@ -84,7 +86,7 @@ const Location = () => {
       
       <FontAwesomeIcon icon={faClock} className="icon-location" id=""/>
       <p className='indicazione'>E' preferibile prenotare un appuntamento, dal Lunedi' al Sabato.</p>
-      <p className='indicazione'>Puoi richiedere un appintamento premento il pulsante Whatsapp.</p>
+      <p className='indicazione'>Puoi richiedere un appuntamento premento il pulsante Whatsapp.</p>
       <a href="https://wa.me/+393420836045" target={'_blank'}>
 {/* <FontAwesomeIcon icon={brands('whatsapp')} className="logoWp" /> */}
 <img src='img/loghi/Wp.png' className='logoWplocation'></img>
@@ -93,8 +95,10 @@ const Location = () => {
       <br></br>
       <FontAwesomeIcon icon={faHome} className="icon-location" id=""/>
       <br></br> 
+      <div className='indicLocation'>
       <p>Via Cardinale Guglielmo Massaia, 17</p>
-      <p>07100 Sassari SS</p>      
+      <p>07100 Sassari SS</p> 
+      </div>     
    <br></br> 
    <p className='indicazione'>Premi il pulsante per aprire la mappa di google sul tuo dispoditivo</p>
      <a href="https://www.google.com/maps/place/Rado+Tattoo+di+Alessandro+Soliveras/@40.747464,8.5493461,15z/data=!4m5!3m4!1s0x0:0x643c619a04d8e3bd!8m2!3d40.747464!4d8.5493461" target="blank">
@@ -122,13 +126,11 @@ const Location = () => {
 
 
 
-<br></br> <br></br> <br></br> <br></br>
-
 <br></br> <br></br>
-<div className='negofooter'>
 
-</div>
-    </div> /* chiusura location-page */
+
+    </div>
+    </> /* chiusura location-page */
   )
 }
 
