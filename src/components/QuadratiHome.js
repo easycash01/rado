@@ -15,7 +15,7 @@ key={1}
  exit={{ opacity: 0, x: 100 }}
  transition={{ duration: 0.5, ease: "easeIn"}}
 >
-   <Link to='/portfolio' className='Quad-portfolio'>
+   <Link to='/Portfolio' className='Quad-portfolio'>
         <div className='Quad-portfolio'>
             <div className='scrittaQuadrati'>
               <h3>LAVORI</h3>

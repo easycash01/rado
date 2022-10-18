@@ -9,11 +9,11 @@ import {motion} from 'framer-motion'
 const Location = () => {
   return (
     <>
-    <div className='locationTop'>  </div> 
+   
     <div className='location-page'> 
     <div className='locationflex'>
    
-    
+    <div className='locationTop'>  </div> 
 
      <div className='locationTopinfo'>   
 <motion.div className='logoLocation'
@@ -66,8 +66,7 @@ const Location = () => {
       <div className='location-six2'> </div>
 
       <div className='location-dex2'>
-      <img src='img/radostudio3_2.jpg' className='negoFuori'></img>
-    {/*   <img src='img/radoDecoration.jpg' className='negodentro'></img> */}
+    
       </div>
 </div>
 
@@ -87,7 +86,7 @@ const Location = () => {
       <FontAwesomeIcon icon={faClock} className="icon-location" id=""/>
       <p className='indicazione'>E' preferibile prenotare un appuntamento, dal Lunedi' al Sabato.</p>
       <p className='indicazione'>Puoi richiedere un appuntamento premento il pulsante Whatsapp.</p>
-      <a href="https://wa.me/+393420836045" target={'_blank'}>
+      <a href="https://wa.me/+393405858078" target={'_blank'}>
 {/* <FontAwesomeIcon icon={brands('whatsapp')} className="logoWp" /> */}
 <img src='img/loghi/Wp.png' className='logoWplocation'></img>
         </a>

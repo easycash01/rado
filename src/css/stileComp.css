@@ -12,10 +12,9 @@
     --img-Location-home: url('../../public/img/locationHome.jpg');
     --img-info-home: url('../../public/img/moreInfo.jpg');
 
-    --img-lavori-portfolio-sfondo:  url('../../public/img/sfond1.jpg');
-    --img-location-sfondo:  url('../../public/img/sfond1.jpg');
+    --img-lavori-portfolio-sfondo:  url('../../public/img/sfondoSito1.jpg');
+    --img-location-sfondo:  url('../../public/img/sfondo2.jpg');
     --img-about-sfondo:  url('../../public/img/aboutSfondo.jpg');
-
 }
 
 body{
@@ -112,7 +111,7 @@ body{
 .menuMobile{
     position: absolute;
    right: 0px;
-   top: 72px;
+   top: 65px;
     margin: 0;
     height: 48vh;
     width: 100vW;
@@ -309,6 +308,7 @@ margin-bottom: 10px;
    background-size: cover;
     background-image: url('../../public/img/locationPage.jpg');
     background-position: center;
+    height: 77vh;
 margin-left: -5%;
    }
    .negoFuori{
@@ -317,9 +317,11 @@ margin-left: -5%;
     }
 .location-dex2{
  width: 50%;
+ height: 77vh;
  text-align:left;
- text-align: center;
-
+ background-image: url('../../public/img/salaRadotattoo.jpg');
+ background-position: center;
+ background-size: cover;
 }
 .negodentro{
     width: 76%;
@@ -340,12 +342,13 @@ margin-left: -5%;
     width: 100%;
     display: flex;
     margin-top: 50px;
-  
+    margin-bottom: 120px;
 }
 .location-six3{
     width: 40%;
     text-align: center;
     align-self:center;
+  
 }
 .location-dex3{
     width: 50%;
@@ -399,7 +402,7 @@ height: 100%;
 color: aliceblue;
 font-size: 21px;
 overflow: hidden;
-background-image: var(--img-location-sfondo);
+background-image: var(--img-lavori-portfolio-sfondo);
 background-repeat: no-repeat;
 background-size: cover;
 display: flex;

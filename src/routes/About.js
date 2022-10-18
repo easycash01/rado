@@ -25,7 +25,7 @@ function About() {
       
 <p className='indicazione indiMobile'>Contattami ora da WhatsApp</p>
 
-<a href="https://wa.me/+393420836045" target={'_blank'}>
+<a href="https://wa.me/+393405858078" target={'_blank'}>
 {/* <FontAwesomeIcon icon={brands('whatsapp')} className="logoWp" /> */}
 <img src='img/loghi/Wp.png' className='logoWpimg'></img>
         </a>
